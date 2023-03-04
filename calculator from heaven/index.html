@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Phudu&family=Tilt+Warp&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="all">
+        <input id="display" value="" readonly>
+        <div class="buttons">
+            <div>
+                <button onclick="display.value = ''" class="sp">AC</button>
+                <button onclick="display.value = display.value.toString().slice(0,-1)" class="sp">DEL</button>
+                <button onclick="display.value += '/'" class="sp">/</button>
+                <button class="sp" >00</button>
+            </div>
+            <div>
+                <button onclick="display.value += '7'">7</button>
+                <button onclick="display.value += '8'">8</button>
+                <button onclick="display.value += '9'">9</button>
+                <button onclick="display.value += '*'" class="sp">*</button>
+            </div>
+            <div>
+                <button onclick="display.value += '4'">4</button>
+                <button onclick="display.value += '5'">5</button>
+                <button onclick="display.value += '6'">6</button>
+                <button onclick="display.value += '-'" class="sp">-</button>
+            </div>
+            <div>
+                <button onclick="display.value += '1'">1</button>
+                <button onclick="display.value += '2'">2</button>
+                <button onclick="display.value += '3'">3</button>
+                <button onclick="display.value += '+'" class="sp">+</button>
+            </div>
+            <div>
+                <button onclick="display.value += '0'" class="buttonO">0</button>
+                <button onclick="display.value += '.'">.</button>
+                <button onclick="display.value = eval(display.value)" class="sp">=</button>
+            </div>
+        </div>
+    </div> 
+    <div class="rr"><h1>CALCULATRIS HABTA MEN JENA</h1></div>
+    
+</body>
+</html>

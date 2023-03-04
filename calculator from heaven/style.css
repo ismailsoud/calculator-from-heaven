@@ -1,0 +1,75 @@
+body{
+    background: black;
+
+}
+
+.all{
+
+    border-radius: 10px;
+    width: 300px;
+    height: 400px;
+    background-color: #E4F9F5; 
+    margin: auto;
+    margin-top: 70px;
+    border: 3px solid black;
+    box-shadow: white 0px 54px 55px, white 0px -12px 30px, white 0px 4px 6px, white 0px 12px 13px, white 0px -3px 5px;;
+}
+.sp{
+    background-color: rgba(0, 0, 0, 0.171);
+    color: white;
+}
+
+.sp:hover{
+    background-color: white;
+    color: rgb(2, 0, 0);
+}
+
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px, 1fr));
+}
+
+button{
+    font-weight: 700;
+    font-size: large;
+    font-family: 'Phudu', cursive;
+    box-shadow: white 0px 54px 55px, white 0px -12px 30px, white 0px 4px 6px, white 0px 12px 13px, white 0px -3px 5px;;
+    border-radius: 5px;
+    border: 0px solid;
+    margin: 3px 3px 3px 7px;
+    width: 20%;
+    height: 50px;
+    background-color: rgba(0, 47, 255, 0.041);
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+input{
+    font-weight: 700;
+    font-size: x-large;
+    font-family: 'Phudu', cursive;
+    color: white;
+    text-align: right;
+    background-color: #40514E;
+    border-radius: 7px;
+    width: 90%;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 4%;
+    margin-bottom: 20px;
+    border: 3px solid black;
+    
+}
+
+.buttonO{
+    width: 45%;
+}
+.rr{
+    display: flex;
+    justify-content: center;
+    color: yellow;
+    margin-top: 150px;
+    font-family: 'Phudu', cursive;
+
+}
